@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background: linear-gradient ( #E1BEE7 0% #90CAF9 100%)
+}
+h1 {
+  text-shadow: 2px 2px #F8BBD0;
+  font-size: 20px;
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+html{
+    scroll-behavior: smooth
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover {
+    transform: scale(0.9);
+}
